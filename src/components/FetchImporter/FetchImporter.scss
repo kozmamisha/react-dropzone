@@ -1,0 +1,19 @@
+.fetchedData {
+  text-align: left;
+}
+
+.fetchButtons {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  margin-bottom: 50px;
+
+  button:hover {
+    background-color: #ddd;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

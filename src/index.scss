@@ -1,0 +1,45 @@
+$roboto-font: "Roboto";
+
+body {
+  font-family: $roboto-font;
+}
+
+.App {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 8px 30px;
+  font-size: 14px;
+  margin-left: 1rem;
+  border: 1px solid #222;
+  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.5);
+
+  &:active {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    span {
+      overflow: hidden;
+    }
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+}

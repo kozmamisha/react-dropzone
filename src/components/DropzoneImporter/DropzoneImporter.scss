@@ -1,0 +1,33 @@
+.dropzone {
+  border: 2px dashed #888;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 40px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+
+  p {
+    margin: 0;
+  }
+}
+
+.deleteButton {
+  background-color: #ff8181;
+
+  &:hover {
+    background-color: #ff5a5a;
+  }
+}
+
+.importButton {
+  background-color: #91ff95;
+
+  &:hover:enabled {
+    background-color: #76ff5e;
+  }
+
+  &:disabled {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    background-color: #d2ffd2;
+  }
+}
